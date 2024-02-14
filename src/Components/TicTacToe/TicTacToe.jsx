@@ -102,9 +102,8 @@ const TicTacToe = () =>
         })
     }
 
-    
     return (
-        <div className = 'container'>
+        <div className ='container'>
             <h1 className = 'title' ref={titleRef}>Tic Tac Toe Game In <span>React</span></h1>
             <div className="board">
                 <div className="row1">
